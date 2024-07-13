@@ -4,18 +4,20 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #140101;
 }
 
 /*  CABEÇALHO MENU  */
 
 header{
     height: 120px;
-    background-color: rgba(112, 109, 109, 0.79);
+    box-shadow: 10px 1px 20px #74222296;
 }
 
 .menu{
     padding: 1vh;
     position: relative;
+    padding: 10px 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -25,11 +27,39 @@ header{
 .menu .opcoes-menu a{
     text-decoration: none;
     color: #fff;
-    margin-right: 25px;
+    padding: 10px 35px ;
+    justify-content: space-between;
     font-size: 20px;
     font-family: 'Inter';
+    transition: 0.1s;
+}
+
+.menu .opcoes-menu a:hover {
+    color: #eaa845;
+    text-shadow: 1px 1px 10px #eaa84573;
+    font-size: 23px;
+    transition: 0.1s;
 }
 
 header .img-menu img{
     height: 120px;
 }
+
+.btn button{
+    border: 0;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    color: #140101;
+    transition: 0.1s;
+}
+
+.btn button:hover{
+    font-size: 22px;
+    box-shadow: 1px 1px 20px #ffffff73;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+
+
