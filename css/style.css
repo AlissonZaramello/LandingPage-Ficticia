@@ -5,19 +5,21 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: #140101;
+    height: 100vh;
 }
 
 /*  CABEÇALHO MENU  */
 
 header{
-    height: 120px;
+    height: 90px;
+    padding: 10px 4%;
     box-shadow: 10px 1px 20px #74222296;
 }
 
 .menu{
     padding: 1vh;
+    height: 100%;
     position: relative;
-    padding: 10px 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -27,7 +29,7 @@ header{
 .menu .opcoes-menu a{
     text-decoration: none;
     color: #fff;
-    padding: 10px 35px ;
+    padding: 0px 35px ;
     justify-content: space-between;
     font-size: 20px;
     font-family: 'Inter';
@@ -48,7 +50,7 @@ header .img-menu img{
 .btn button{
     border: 0;
     font-size: 20px;
-    padding: 20px;
+    padding: 15px;
     border-radius: 30px;
     color: #140101;
     transition: 0.1s;
@@ -61,5 +63,21 @@ header .img-menu img{
     cursor: pointer;
 }
 
+/* CORPO PRINCIPAL DO SITE */
 
+.corpo-principal{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 4%;
+}
+
+.corpo-principal .img-principal img{
+    height: 430px;
+}
+
+.texto-informativo {
+    color: #fff;
+    font-family: 'Inter';
+    font-size: 30px;
+}
 
