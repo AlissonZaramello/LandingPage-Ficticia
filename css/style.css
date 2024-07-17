@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+*{
+    font-family: 'Inter';
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -69,15 +73,51 @@ header .img-menu img{
     display: flex;
     justify-content: space-between;
     padding: 40px 4%;
+    box-shadow: 10px 1px 20px #74222296;
+    height: 100%;
 }
 
 .corpo-principal .img-principal img{
-    height: 430px;
+    height: 80vh;
+}
+
+.texto-informativo p{
+    font-size: 20px;
+    text-align: left;
+    color: #fff;
+}
+
+.texto-informativo h1{
+    color: #eaa845;
 }
 
 .texto-informativo {
-    color: #fff;
-    font-family: 'Inter';
     font-size: 30px;
 }
 
+/* CAMPO SOBRE NÓS */
+
+.sobre-nos {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 4%;
+}
+
+.img-sobre img{
+    height: 500px;
+}
+
+.texto-sobre h1{
+    color: #eaa845;
+    font-size: 35px;
+}
+
+.texto-sobre span{
+    color: #eaa845;
+}
+
+.texto-sobre p{
+    color: #fff;
+    width: 510px;
+    font-size: 25px;
+}
