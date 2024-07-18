@@ -57,15 +57,17 @@ header .img-menu img{
     padding: 15px;
     border-radius: 30px;
     color: #140101;
-    transition: 0.1s;
+    transition: 0.3s;
 }
 
 .btn button:hover{
-    font-size: 22px;
-    box-shadow: 1px 1px 20px #ffffff73;
-    transition: 0.1s;
+    box-shadow: 1px 1px 20px #eaa84573;
+    background-color: #eaa845;
+    color: #140101;
     cursor: pointer;
 }
+
+
 
 /* CORPO PRINCIPAL DO SITE */
 
@@ -101,6 +103,7 @@ header .img-menu img{
     display: flex;
     justify-content: space-between;
     padding: 40px 4%;
+    box-shadow: 10px 1px 20px #74222296;
 }
 
 .img-sobre img{
@@ -120,4 +123,71 @@ header .img-menu img{
     color: #fff;
     width: 510px;
     font-size: 25px;
+}
+
+/* PARTE DE SERVIÇOS */
+
+.servicos {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 4%;
+    box-shadow: 10px 1px 20px #74222296;
+}
+
+.img-servicos img{
+    width: 700px;
+}
+
+.texto-servicos h1{
+    color: #fff;
+    font-size: 35px;
+}
+
+.texto-servicos p{
+    color: #fff;
+    width: 510px;
+    font-size: 20px;
+}
+
+.texto-servicos span{
+    color: #eaa845;
+}
+
+/* PARTE DE CONTATOS */
+
+.contato {
+    padding: 40px 4%;
+    box-shadow: 10px 1px 20px #74222296;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: #eaa845;
+}
+
+.telefones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto{
+    line-height: 10px;
+}
+
+.texto h1{
+    color: #eaa845;
+    font-size: 25px;
+}
+
+.texto p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.texto span{
+    font-size: 20px;
+    color: #eaa845; 
 }
